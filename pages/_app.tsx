@@ -1,7 +1,9 @@
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from "next/app";
+
 // add bootstrap css
 import "bootstrap/dist/css/bootstrap.css";
+import "../public/adminkit/dist/css/app.css";
 
 // import "../styles/assets/adminlte3/plugins/fontawesome-free/css/all.css";
 // import "../styles/assets/adminlte3/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css";
