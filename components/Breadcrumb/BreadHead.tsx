@@ -17,9 +17,7 @@ export default function BreadHead(parm: Props): ReactElement {
     if (item === active) {
       return (
         <li className="breadcrumb-item active" aria-current="page">
-          <Link href={href}>
-            <a>{item}</a>
-          </Link>
+          {item}
         </li>
       );
     } else {
