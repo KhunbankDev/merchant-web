@@ -87,9 +87,14 @@ export default function Navsidebar({}: Props): ReactElement {
                 </Link>
               </li>
               <li className="sidebar-item">
-                <a className="sidebar-link" href="#">
-                  <i className="fas fa-clipboard-list"></i> Audit Log{" "}
-                </a>
+                <Link
+                  href="/admin/logaudit
+              "
+                >
+                  <a className="sidebar-link" href="#">
+                    <i className="fas fa-clipboard-list"></i> Audit Log{" "}
+                  </a>
+                </Link>
               </li>
             </ul>
           </li>
